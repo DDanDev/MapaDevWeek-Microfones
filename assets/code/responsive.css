@@ -1,0 +1,59 @@
+@media (max-width: 700px) {
+	header {
+		padding: 30px 10px 10px 10px;
+	}
+
+	header h1 {
+		font-size: 30px;
+        max-width: fit-content;
+	}
+
+	header h2 {
+		font-size: 18px;
+        max-width: fit-content;
+	}
+
+	main {
+		gap: 3vw;
+	}
+
+	button {
+		width: 7vw;
+		height: 7vw;
+		border-width: 1vw;
+	}
+
+	button img {
+		height: 100%;
+	}
+
+	.titulo h2 {
+		font-size: 20px;
+	}
+
+	.titulo p {
+		font-size: 14px;
+	}
+
+	.microfonacao h3 {
+		font-size: 16px;
+	}
+
+	.microfonacao p {
+		font-size: 14px;
+		height: 150px;
+	}
+}
+
+@media (pointer: coarse) {
+	swipeenabled {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		font-size: 12px;
+	}
+
+	/* button {
+		visibility: hidden;
+	} */
+}
