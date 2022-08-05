@@ -43,7 +43,7 @@ document.getElementById("btnback").addEventListener("click", function () {
 document.getElementById("cards").addEventListener("touchstart", function (touchevent) {
 	touchx = touchevent.touches[0].screenX;
 	touchy = touchevent.touches[0].screenY;
-	console.log(touchevent.touches)
+	console.log(touchevent.touches);
 });
 
 document.getElementById("cards").addEventListener("touchmove", function (touchevent) {

@@ -1,16 +1,16 @@
 @media (max-width: 700px) {
 	header {
-		padding: 30px 10px 10px 10px;
+		padding: 30px 10px 20px 10px;
 	}
 
 	header h1 {
 		font-size: 30px;
-        max-width: fit-content;
+		max-width: fit-content;
 	}
 
 	header h2 {
 		font-size: 18px;
-        max-width: fit-content;
+		max-width: fit-content;
 	}
 
 	main {
@@ -51,6 +51,8 @@
 		justify-content: center;
 		text-align: center;
 		font-size: 12px;
+		padding: 5px;
+		z-index: 1;
 	}
 
 	/* button {
